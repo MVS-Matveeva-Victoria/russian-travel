@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+
 @media (max-width: 1025px) {
   .place__website {
     width: 456px;
