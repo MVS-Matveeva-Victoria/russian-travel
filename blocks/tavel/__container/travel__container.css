@@ -1,0 +1,11 @@
+.travel__container {
+  max-width: 984px;
+  margin: 64px auto 0 auto;
+}
+
+@media (max-width: 1025px) {
+  .travel__container {
+    max-width: 100%;
+    width: 928px;
+  }
+}

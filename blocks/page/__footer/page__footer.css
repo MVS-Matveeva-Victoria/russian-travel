@@ -1,0 +1,36 @@
+.page__footer {
+  margin: 92px auto 0 auto;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1025px) {
+  .page__footer {
+    padding: 0 48px 24px 48px;
+  }
+}
+
+@media (max-width: 769px) {
+  .page__footer {
+    margin: 88px auto 0 auto;
+    padding: 0 24px 24px 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page__footer {
+    margin: 75px auto 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .page__footer {
+    margin: 68px auto 0 auto;
+  }
+}
+
+@media (max-width: 333px) {
+  .page__footer {
+    margin: 64px auto 0 auto;
+    padding: 0 16px 24px 16px;
+  }
+}

@@ -1,0 +1,9 @@
+.header {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #2A2C2F;
+	z-index: 10;
+	box-sizing: border-box;
+}

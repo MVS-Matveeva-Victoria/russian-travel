@@ -1,0 +1,15 @@
+.place_margin_top {
+  margin: 80px auto 0 auto;
+}
+
+@media (max-width: 769px) {
+  .place_margin_top {
+    margin: 73px auto 0 auto;
+  }
+}
+
+@media (max-width: 321px) {
+  .place_margin_top {
+    margin: 50px auto 0 auto;
+  }
+}

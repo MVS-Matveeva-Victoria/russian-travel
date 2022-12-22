@@ -1,0 +1,24 @@
+.travel__title {
+  max-width: 720px;
+  max-height: 200px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  margin: 0 auto 32px auto;
+  text-align: center;
+}
+
+@media (max-width: 680px) {
+  .travel__title {
+    font-size: calc(40px + 56 * (100vw / 1280));
+  }
+}
+
+@media (max-width: 420px) {
+  .travel__title {
+    font-size: calc(40px + (56 + 56 * 0.7) * ((100vw - 320px) / 1280));
+    line-height: 44px;
+  }
+}

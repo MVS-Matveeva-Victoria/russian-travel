@@ -1,0 +1,8 @@
+.travel {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 8;
+	padding: 136px 0 0 0;
+	box-sizing: border-box;
+}
