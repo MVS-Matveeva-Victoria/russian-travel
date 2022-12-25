@@ -1,4 +1,4 @@
-.header__lang-link_active {
+.header__lang-link_type_active {
 	color: #ffffff;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 321px) {
-	.header__lang-link_active {
+	.header__lang-link_type_active {
 	font-size: 18px;
 	line-height: 20px;
 	}
