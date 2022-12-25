@@ -11,12 +11,27 @@
   }
 }
 
-@media (max-width: 928px) {
+@media (max-width: 960px) {
   .place__image {
-    width: 330px;
-    height: 330px;
+    width: 400px;
+		height: 400px;
   }
 }
+
+@media (max-width: 860px) {
+  .place__image {
+    width: 340px;
+    height: 340px;
+		margin-top: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+   .place__image {
+    margin-top: 40px;
+  }
+}
+
 @media (max-width: 321px) {
   .place__image {
     width: 320px;

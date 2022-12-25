@@ -14,17 +14,24 @@
   }
 }
 
-@media (max-width: 928px) {
+@media (max-width: 960px) {
+  .place__website {
+    width: 400px;
+  }
+}
+
+@media (max-width: 860px) {
   .place__website {
     width: 352px;
   }
 }
 
-@media (max-width: 710px) {
+@media (max-width: 767px) {
   .place__website {
-    width: 330px;
+    width: 340px;
   }
 }
+
 @media (max-width: 340px) {
   .place__website {
     width: 288px;

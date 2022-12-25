@@ -5,6 +5,7 @@
   font-size: 18px;
   line-height: 29px;
   margin: 0;
+	padding: 0;
 }
 
 .place__paragraph:first-child {
@@ -16,9 +17,16 @@
     margin: 48px 0 27px 0;
   }
 }
-@media (max-width: 769px) {
+
+@media (max-width: 860px) {
   .place__paragraph:first-child {
     margin: 48px 0 25px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .place__paragraph:first-child {
+    margin: 40px 0 25px 0;
   }
 }
 
@@ -28,7 +36,7 @@
   }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 860px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;

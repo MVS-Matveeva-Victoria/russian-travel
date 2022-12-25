@@ -10,10 +10,11 @@
 @media (max-width: 1025px) {
   .place {
     column-gap: 32px;
+		padding: 0 16px;
   }
 }
 
-@media (max-width: 928px) {
+@media (max-width: 960px) {
   .place {
     column-gap: 28px;
   }

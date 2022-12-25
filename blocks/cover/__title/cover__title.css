@@ -24,3 +24,9 @@
     line-height: 35px;
   }
 }
+
+@media (max-width: 321px) {
+  .cover__title {
+  	margin: 0 auto 16px auto;
+  }
+}

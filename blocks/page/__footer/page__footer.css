@@ -22,6 +22,7 @@
     margin: 75px auto 0 auto;
   }
 }
+
 @media (max-width: 500px) {
   .page__footer {
     margin: 68px auto 0 auto;

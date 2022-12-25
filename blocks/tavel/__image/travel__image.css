@@ -1,9 +1,66 @@
 .travel__image {
 	position: relative;
-	max-width: 100%;
-	width: 984px;
-	height: 100%;
+	max-width: 984px;
+  min-height: 615px;
 	display: block;
 	margin: 0 auto;
 	z-index: 12;
+}
+
+@media (max-width: 1025px) {
+  .travel__image {
+    min-height: 580px;
+    max-width: 100%;
+    width: 928px;
+  }
+}
+
+@media (max-width: 769px) {
+  .travel__image {
+    min-height: 480px;
+    width: 768px;
+  }
+}
+
+@media (max-width: 680px) {
+  .travel__image {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 614px) {
+  .travel__image {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 548px) {
+  .travel__image {
+    min-height: 360px;
+  }
+}
+
+@media (max-width: 482px) {
+  .travel__image {
+    min-height: 340px;
+  }
+}
+
+@media (max-width: 416px) {
+  .travel__image {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 350px) {
+  .travel__image {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 340px) {
+  .travel__image {
+    min-height: 200px;
+    width: 320px;
+  }
 }

@@ -8,6 +8,13 @@
   text-transform: uppercase;
   display: block;
   margin: 8px 0 0 0;
+	padding: 0;
+}
+
+@media (max-width: 1025px) {
+  .travel__text {
+    margin: 8px 0 0 48px;
+  }
 }
 
 @media (max-width: 769px) {

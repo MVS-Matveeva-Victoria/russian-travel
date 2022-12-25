@@ -7,17 +7,25 @@
     width: 456px;
   }
 }
-@media (max-width: 928px) {
+
+@media (max-width: 960px) {
+  .place__paragraphs {
+    width: 400px;
+  }
+}
+
+@media (max-width: 860px) {
   .place__paragraphs {
     width: 352px;
   }
 }
 
-@media (max-width: 710px) {
+@media (max-width: 767px) {
   .place__paragraphs {
-    width: 330px;
+    width: 340px;
   }
 }
+
 @media (max-width: 340px) {
   .place__paragraphs {
     width: 288px;

@@ -7,12 +7,11 @@
     <title>russian-travel</title>
   </head>
   <body class="root">
-    <div class="wrapper">
-      <div class="page page_container">
+      <div class="page page_position_center">
         <header class="header">
           <div class="header__logo"></div>
           <div class="header__lang-links">
-            <a class="header__lang-link" href="#">Ru</a>
+            <a class="header__lang-link_active" href="#">Ru</a>
             <a class="header__lang-link" href="#">En</a>
           </div>
         </header>
@@ -20,12 +19,10 @@
           <section class="travel">
             <h1 class="travel__title">Путешествия по России</h1>
             <p class="travel__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <div class="travel__container">
-              <div class="travel__image-container">
+            <figure class="travel__container">
                 <img class="travel__image" src="images/lead-polka.jpg" alt="Здесь должна быть картинка полки вагона поезда">
-              </div>
-              <p class="travel__text">ваша полка — верхняя</p>
-            </div>
+                <figcaption class="travel__text">ваша полка — верхняя</figcaption>
+              </figure>
           </section>
           <section class="intro">
             <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -35,11 +32,11 @@
               троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
             </p>
             <ul class="intro__list">
-              <li class="intro__item">Часовых поясов 11</li>
-              <li class="intro__item">Объектов природного наследия ЮНЕСКО 12</li>
-              <li class="intro__item">Объектов культурного наследия ЮНЕСКО 16</li>
-              <li class="intro__item">Природных заповедников 105</li>
-              <li class="intro__item">Аэропортов 241</li>
+              <li class="intro__item">Часовых поясов <span class="intro__item_numbers_400-weight">11</span></li>
+              <li class="intro__item">Объектов природного наследия ЮНЕСКО <span class="intro__item_numbers_400-weight">12</span></li>
+              <li class="intro__item">Объектов культурного наследия ЮНЕСКО <span class="intro__item_numbers_400-weight">16</span></li>
+              <li class="intro__item">Природных заповедников <span class="intro__item_numbers_400-weight">105</span></li>
+              <li class="intro__item">Аэропортов <span class="intro__item_numbers_400-weight">241</span></li>
             </ul>
           </section>
           <section class="photo-grid">
@@ -60,8 +57,8 @@
             <div class="place place_margin_top">
               <h2 class="place__title">Куршская коса</h2>
               <div class="place__website">
-                <p class="place__url-heading">URL</p>
-                <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
+                <p class="place__url-heading">url</p>
+                <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
               </div>
               <img class="place__image" src="images/__image-Kursk.png" alt="Здесь должно быть фото Курска">
               <div class="place__paragraphs">
@@ -78,8 +75,8 @@
             <div class="place place_margin_top">
               <h2 class="place__title">Кольский</h2>
               <div class="place__website">
-                <p class="place__url-heading">URL</p>
-                <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+                <p class="place__url-heading">url</p>
+                <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
               </div>
               <img class="place__image" src="images/__image-Koliyskiy.png" alt="Здесь должно быть фото Кольских гор">
               <div class="place__paragraphs">
@@ -93,8 +90,8 @@
             <div class="place place_margin_top">
               <h2 class="place__title">Алтай</h2>
               <div class="place__website">
-                <p class="place__url-heading">URL</p>
-                <a class="place__link place__link_opacity" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube </a>
+                <p class="place__url-heading">url</p>
+                <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">YouTube </a>
               </div>
               <img class="place__image" src="images/__image-Altay.png" alt="Здесь должно быть фото Алтая">
               <div class="place__paragraphs">
@@ -111,8 +108,8 @@
             <div class="place place_margin_top">
               <h2 class="place__title">Зимний Байкал</h2>
               <div class="place__website">
-                <p class="place__url-heading">URL</p>
-                <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+                <p class="place__url-heading">url</p>
+                <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
               </div>
               <img class="place__image" src="images/__image-Baykal.png" alt="Здесь должно быть фото Байкала">
               <div class="place__paragraphs">
@@ -126,8 +123,8 @@
             <div class="place place_margin_top">
               <h2 class="place__title">Карелия</h2>
               <div class="place__website">
-                <p class="place__url-heading">URL</p>
-                <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
+                <p class="place__url-heading">url</p>
+                <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
               </div>
               <img class="place__image" src="images/__image-Kareliya.png" alt="Здесь должно быть фото Карелии">
               <div class="place__paragraphs">
@@ -140,25 +137,25 @@
             </div>
           </section>
           <section class="cover">
-            <a class="cover__background-container" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-              <img class="cover__image" src="images/__background.png" alt="Здесь должно быть фото поездов">
-              <div class="cover__overlay"></div>
-              <h2 class="cover__title">До Байкала «на собаках»</h2>
-              <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+            <a class="cover__background-container" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+							<div class="cover__overlay"></div>
+							<h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+							<p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе&nbsp;—&nbsp;путешествие от&nbsp;столицы&nbsp;до&nbsp;Байкала&nbsp;на&nbsp;электричках.</p>
             </a>
           </section>
         </main>
         <footer class="footer page__footer">
+         <nav class="footer__list">
           <ul class="footer__links">
-            <li class="footer__item"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-            <li class="footer__item"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-            <li class="footer__item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-            <li class="footer__item"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
-            <li class="footer__item"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+            <li class="footer__item"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+            <li class="footer__item"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+            <li class="footer__item"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+            <li class="footer__item"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+            <li class="footer__item" target="_blank"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
           </ul>
-          <a class="footer__coopyright" href="#">&copy; 2020. Виктория Матвеева</a>
+         </nav>
+          <p class="footer__coopyright">&copy; 2020. Виктория Матвеева</p>
         </footer>
       </div>
-    </div>
   </body>
 </html>

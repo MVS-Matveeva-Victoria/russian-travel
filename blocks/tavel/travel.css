@@ -6,3 +6,9 @@
 	padding: 56px 0 0 0;
 	box-sizing: border-box;
 }
+
+@media (max-width: 1025px) {
+	.travel {
+		padding: 48px 0 0 0;
+	}
+}

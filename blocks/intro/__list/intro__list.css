@@ -3,3 +3,21 @@
 	margin: 0;
 	padding: 0;
 }
+
+@media (max-width: 1025px) {
+  .intro__list {
+    margin: 33px 48px 0 48px;
+  }
+}
+
+@media (max-width: 769px) {
+  .intro__list {
+    margin: 33px 24px 0 24px;
+  }
+}
+
+@media (max-width: 321px) {
+  .intro__list {
+    margin: 34px 16px 0 16px;
+  }
+}
