@@ -1,13 +1,7 @@
 .page__footer {
-  margin: 92px auto 0 auto;
-  padding-bottom: 24px;
+  margin: 92px 48px 0 48px;
+  padding: 0 0 24px 0;
   box-sizing: border-box;
-}
-
-@media (max-width: 1025px) {
-  .page__footer {
-    padding: 0 48px 24px 48px;
-  }
 }
 
 @media (max-width: 769px) {

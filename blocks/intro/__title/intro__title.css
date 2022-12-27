@@ -7,13 +7,7 @@
   line-height: 58px;
 }
 
-@media (max-width: 1025px) {
-  .intro__title {
-    margin: 92px 48px 0 48px;
-  }
-}
-
-@media (max-width: 769px) {
+@media (max-width: 974px) {
   .intro__title {
     margin: 88px 24px 0 24px;
   }

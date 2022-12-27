@@ -6,25 +6,27 @@
   font-size: 96px;
   line-height: 100px;
   margin: 0 auto 32px auto;
+	align-self: center;
   text-align: center;
 	padding: 0 16px;
 }
 
-@media (max-width: 698px) {
+@media (max-width: 706px) {
   .travel__title {
     font-size: calc(40px + 56 * (100vw / 1280));
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 461px) {
   .travel__title {
     font-size: calc(40px + (56 + 56 * 0.7) * ((100vw - 320px) / 1280));
-    line-height: 44px;
+    line-height: 60px;
   }
 }
 
 @media (max-width: 321px) {
 	 .travel__title {
 		margin: 0 auto 16px auto;
+		line-height: 44px;
 	}
 }

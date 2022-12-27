@@ -5,6 +5,8 @@
   font-size: 14px;
   line-height: 16px;
   color: #ffffff;
+	margin: 0;
+	padding: 0;
 }
 
 @media (max-width: 720px) {
@@ -15,7 +17,6 @@
 
 @media (max-width: 333px) {
   .footer__coopyright {
-    font-size: 14px;
     line-height: 14px;
   }
 }

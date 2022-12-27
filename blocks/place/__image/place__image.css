@@ -22,7 +22,6 @@
   .place__image {
     width: 340px;
     height: 340px;
-		margin-top: 48px;
   }
 }
 
@@ -32,7 +31,7 @@
   }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 341px) {
   .place__image {
     width: 320px;
     height: 320px;

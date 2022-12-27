@@ -8,13 +8,7 @@
   margin: 40px 0 33px 0;
 }
 
-@media (max-width: 1025px) {
-  .intro__text {
-    margin: 40px 48px 0 48px;
-  }
-}
-
-@media (max-width: 769px) {
+@media (max-width: 974px) {
   .intro__text {
     margin: 40px 24px 0 24px;
   }
@@ -22,7 +16,6 @@
 
 @media (max-width: 321px) {
   .intro__text {
-    line-height: 26px;
 		margin: 40px 16px 0 16px;
   }
 }

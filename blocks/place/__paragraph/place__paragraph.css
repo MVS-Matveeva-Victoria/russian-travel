@@ -14,7 +14,7 @@
 
 @media (max-width: 1025px) {
   .place__paragraph:first-child {
-    margin: 48px 0 27px 0;
+   	margin: 48px 0 27px 0;
   }
 }
 
@@ -24,6 +24,13 @@
   }
 }
 
+@media (max-width: 860px) {
+	.place:last-child .place__paragraph:first-child {
+    margin: 48px 0 0 0;
+  }
+}
+
+
 @media (max-width: 767px) {
   .place__paragraph:first-child {
     margin: 40px 0 25px 0;
@@ -31,8 +38,14 @@
 }
 
 @media (max-width: 321px) {
-  .place__paragraph:first-child {
+	.place__paragraph:first-child {
     margin: 32px 0 25px 0;
+  }
+}
+
+@media (max-width: 321px) {
+	.place:last-child .place__paragraph:first-child {
+    margin: 32px 0 0 0;
   }
 }
 

@@ -1,16 +1,10 @@
 .intro__list {
 	max-width: 690px;
-	margin: 0;
+	margin: 33px 0 0 0;
 	padding: 0;
 }
 
-@media (max-width: 1025px) {
-  .intro__list {
-    margin: 33px 48px 0 48px;
-  }
-}
-
-@media (max-width: 769px) {
+@media (max-width: 974px) {
   .intro__list {
     margin: 33px 24px 0 24px;
   }
